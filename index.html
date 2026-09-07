@@ -46,6 +46,8 @@ table{width:100%;border-collapse:collapse;font-size:12.5px;}
 .dicc td{border-bottom:1px solid var(--bd);padding:8px 10px;vertical-align:top;color:var(--tx);}
 .dicc td.dt{font-weight:700;color:var(--pp);white-space:nowrap;}
 .note{font-size:12px;color:var(--mut);margin-top:8px;}
+.ql{font-size:13px;line-height:1.55;padding:9px 0;border-bottom:1px solid var(--bd);}
+.ql:last-child{border-bottom:none;}
 .pay{background:var(--pp);color:#fff;border-radius:12px;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;}
 .pay .big{font-size:28px;font-weight:800;}
 </style>
@@ -181,6 +183,19 @@ table{width:100%;border-collapse:collapse;font-size:12.5px;}
     <div class="note"><b>515 clientes pagaron</b> en total esta semana. De ellos, 321 pagaron <b>sin haber respondido</b> al agente — el recordatorio empuja el pago aunque el cliente no conteste directo.</div>
   </div>
 
+  <div class="card">
+    <h2>Pagos por tipo de gestión <small>· 515 clientes · $2,998,043</small></h2>
+    <table class="dicc"><thead><tr>
+      <th style="text-align:left;color:var(--mut);font-size:11px;">Tipo de gestión</th>
+      <th style="text-align:right;color:var(--mut);font-size:11px;">Clientes</th>
+      <th style="text-align:right;color:var(--mut);font-size:11px;">%</th>
+      <th style="text-align:right;color:var(--mut);font-size:11px;">Monto</th></tr></thead><tbody>
+    <tr><td class="dt">Con promesa de pago</td><td style="text-align:right;font-weight:700;">102</td><td style="text-align:right;color:var(--mut);">20%</td><td style="text-align:right;font-weight:700;">$620,977</td></tr><tr><td class="dt">Respondió sin promesa</td><td style="text-align:right;font-weight:700;">92</td><td style="text-align:right;color:var(--mut);">18%</td><td style="text-align:right;font-weight:700;">$509,171</td></tr><tr><td class="dt">Pagó tras recordatorios (sin responder)</td><td style="text-align:right;font-weight:700;">321</td><td style="text-align:right;color:var(--mut);">62%</td><td style="text-align:right;font-weight:700;">$1,867,895</td></tr>
+    <tr><td class="dt" style="color:var(--tx);">Total</td><td style="text-align:right;font-weight:800;">515</td><td style="text-align:right;color:var(--mut);">100%</td><td style="text-align:right;font-weight:800;">$2,998,043</td></tr>
+    </tbody></table>
+    <div class="note"><b>62% de los pagos</b> llegó de clientes que sí recibieron gestión (SMS y llamadas, ~19 toques en promedio) pero no contestaron ni dejaron promesa — pagaron por el efecto recordatorio.</div>
+  </div>
+
   <div class="grid2">
     <div class="card">
       <h2>Contactabilidad por asignación</h2>
@@ -215,19 +230,19 @@ table{width:100%;border-collapse:collapse;font-size:12.5px;}
 <div class="row"><div class="lab">Dudas generales</div>
       <div class="track"><div class="fill" style="width:4.0%;background:#4B2E83;"></div></div>
       <div class="val">5</div></div>
-<div class="row"><div class="lab">No es el titular</div>
+<div class="row"><div class="lab">Contactado (sin categoría)</div>
       <div class="track"><div class="fill" style="width:1.6%;background:#4B2E83;"></div></div>
       <div class="val">2</div></div>
 <div class="row"><div class="lab">Negativa de pago</div>
       <div class="track"><div class="fill" style="width:1.6%;background:#4B2E83;"></div></div>
       <div class="val">2</div></div>
-<div class="row"><div class="lab">Contactado (sin categoría)</div>
+<div class="row"><div class="lab">No es el titular</div>
       <div class="track"><div class="fill" style="width:1.6%;background:#4B2E83;"></div></div>
       <div class="val">2</div></div>
-<div class="row"><div class="lab">Problemas de liquidez</div>
+<div class="row"><div class="lab">Problema de medio de pago</div>
       <div class="track"><div class="fill" style="width:0.8%;background:#4B2E83;"></div></div>
       <div class="val">1</div></div>
-<div class="row"><div class="lab">Problema de medio de pago</div>
+<div class="row"><div class="lab">Problemas de liquidez</div>
       <div class="track"><div class="fill" style="width:0.8%;background:#4B2E83;"></div></div>
       <div class="val">1</div></div>
     </div>
@@ -250,4 +265,5 @@ table{width:100%;border-collapse:collapse;font-size:12.5px;}
     </tbody></table>
     <div class="note">Cada llamada se clasifica por el resultado de la marcación: fallo de línea → Ilocalizable; timbró sin atender → No contesta; atendidas → tipificación de la conversación. Recado con familiar/tercero, Cuelga llamada y Falleció aún no se capturan por separado en la data del agente (por eso 0); si el sistema los marca, se reflejan aquí.</div>
   </div>
+
 </div>
