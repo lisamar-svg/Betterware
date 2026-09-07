@@ -1,0 +1,220 @@
+<title>Betterware · Contactabilidad semana 36</title>
+<style>
+:root{--pp:#4B2E83;--dk:#2E1A47;--lt:#EDE7F6;--gr:#1B7F5A;--grey:#8A8398;--bg:#FBFAFD;--card:#fff;--bd:#ECEAF2;--tx:#2E1A47;--mut:#6B6580;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17121F;--card:#20182C;--bd:#332844;--tx:#EDE7F6;--mut:#A99FBB;--lt:#2B2138;}}
+:root[data-theme="dark"]{--bg:#17121F;--card:#20182C;--bd:#332844;--tx:#EDE7F6;--mut:#A99FBB;--lt:#2B2138;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+.wrap{max-width:1000px;margin:0 auto;padding:26px 20px 60px;}
+.hd{font-size:13px;color:var(--mut);letter-spacing:.04em;text-transform:uppercase;font-weight:700;}
+h1{font-size:26px;margin:4px 0 2px;color:var(--pp);}
+.sub{color:var(--mut);font-size:13px;margin-bottom:22px;}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px;}
+.kpi{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;}
+.kpi .n{font-size:25px;font-weight:800;color:var(--tx);line-height:1;}
+.kpi .l{font-size:12px;color:var(--mut);margin-top:6px;}
+.kpi .s{font-size:12px;font-weight:700;margin-top:3px;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+@media(max-width:720px){.kpis,.grid3{grid-template-columns:repeat(2,1fr);}.grid2{grid-template-columns:1fr;}}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px 20px;margin-bottom:16px;}
+.card h2{font-size:15px;margin:0 0 14px;color:var(--tx);}
+.card h2 small{font-weight:400;color:var(--mut);font-size:12px;}
+.row{display:flex;align-items:center;gap:10px;margin:7px 0;}
+.row .lab{width:210px;font-size:12.5px;color:var(--tx);flex:none;}
+.row .track{flex:1;background:var(--lt);border-radius:6px;height:16px;overflow:hidden;}
+.row .fill{height:100%;border-radius:6px;}
+.row .val{width:64px;text-align:right;font-weight:700;font-size:12.5px;color:var(--tx);flex:none;}
+.splitbar{display:flex;height:34px;border-radius:9px;overflow:hidden;margin:6px 0 10px;}
+.splitbar div{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:13px;}
+.g3{text-align:center;padding:16px 10px;border-radius:12px;border:1px solid var(--bd);}
+.g3 .n{font-size:30px;font-weight:800;line-height:1;}
+.g3 .l{font-size:12.5px;color:var(--mut);margin-top:6px;}
+.g3 .p{font-size:12px;font-weight:700;margin-top:2px;}
+.fn{margin:12px 0;}
+.fnbar{height:34px;border-radius:8px;display:flex;align-items:center;justify-content:flex-end;padding-right:12px;min-width:52px;}
+.fnn{color:#fff;font-weight:800;font-size:15px;}
+.fnmeta{font-size:13px;margin-bottom:5px;}.fnd{color:var(--mut);font-size:12px;}
+.ex{margin:14px 0;}
+.exhd{font-size:13px;margin-bottom:5px;}
+.exft{font-size:11.5px;color:var(--mut);margin-top:4px;}
+.mtr{position:relative;height:20px;background:var(--lt);border-radius:6px;overflow:hidden;}
+.mtrfill{height:100%;border-radius:6px;}
+.mtrmk{position:absolute;top:-3px;bottom:-3px;width:3px;background:var(--dk);border-radius:2px;}
+:root[data-theme="dark"] .mtrmk,@media(prefers-color-scheme:dark){.mtrmk{background:#fff;}}
+table{width:100%;border-collapse:collapse;font-size:12.5px;}
+.dicc td{border-bottom:1px solid var(--bd);padding:8px 10px;vertical-align:top;color:var(--tx);}
+.dicc td.dt{font-weight:700;color:var(--pp);white-space:nowrap;}
+.note{font-size:12px;color:var(--mut);margin-top:8px;}
+.pay{background:var(--pp);color:#fff;border-radius:12px;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;}
+.pay .big{font-size:28px;font-weight:800;}
+</style>
+<div class="wrap">
+  <div class="hd">Betterware · Agente de Cobranza · Toku</div>
+  <h1>Contactabilidad — Semana 36</h1>
+  <div class="sub">Base de la semana: cartera asignada al agente · corte 7 de septiembre de 2026</div>
+
+  <div class="kpis">
+    <div class="kpi"><div class="n">647</div><div class="l">Clientes en la base</div></div>
+    <div class="kpi"><div class="n">644</div><div class="l">Se intentó contactar</div><div class="s" style="color:#4B2E83;">99.5% de la base</div></div>
+    <div class="kpi"><div class="n">243</div><div class="l">Contactados (respondieron)</div><div class="s" style="color:#1B7F5A;">37.6% de la base</div></div>
+    <div class="kpi"><div class="n">$3.00M</div><div class="l">Recaudado</div><div class="s" style="color:#1B7F5A;">62.4% de la cartera</div></div>
+  </div>
+
+  <div class="card">
+    <h2>Los tres grupos <small>· sin ambigüedad</small></h2>
+    <div class="grid3">
+      <div class="g3" style="background:#EDE7F6;"><div class="n" style="color:#4B2E83;">644</div><div class="l">Se intentó contactar</div><div class="p" style="color:#4B2E83;">99.5% de la base</div></div>
+      <div class="g3" style="background:#E4F2EC;"><div class="n" style="color:#1B7F5A;">243</div><div class="l">Se contactaron (respondieron)</div><div class="p" style="color:#1B7F5A;">37.6% de la base</div></div>
+      <div class="g3"><div class="n" style="color:#B0324B;">3</div><div class="l">No se intentó contactar</div><div class="p" style="color:#B0324B;">0.5% de la base</div></div>
+    </div>
+    <div class="note"><b>Se intentó ≠ se contactó.</b> Se intentó = se le marcó/mensajeó al menos una vez. Se contactó = el cliente respondió. De los 644 intentados, respondieron 243 y 401 no respondieron.</div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>¿Por qué no se intentó contactar? <small>· 3 clientes</small></h2>
+      <div class="row"><div class="lab">Número no válido</div>
+      <div class="track"><div class="fill" style="width:100.0%;background:#B0324B;"></div></div>
+      <div class="val">3</div></div>
+      <div class="note">Casi toda la base se gestionó; estos son los únicos sin ningún intento registrado.</div>
+    </div>
+    <div class="card">
+      <h2>Intentados que no respondieron — ¿por qué? <small>· 401 clientes</small></h2>
+      <div class="row"><div class="lab">No contesta (timbró)</div>
+      <div class="track"><div class="fill" style="width:100.0%;background:#C9820A;"></div></div>
+      <div class="val">348</div></div>
+<div class="row"><div class="lab">Escuchó/leyó, no respondió</div>
+      <div class="track"><div class="fill" style="width:11.8%;background:#C9820A;"></div></div>
+      <div class="val">41</div></div>
+<div class="row"><div class="lab">Línea no localizable</div>
+      <div class="track"><div class="fill" style="width:3.4%;background:#C9820A;"></div></div>
+      <div class="val">12</div></div>
+      <div class="note">Se les marcó pero no hubo contacto efectivo. Motivo inferido del estado de cada toque.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Embudo de contacto <small>· de la base de 647 clientes</small></h2>
+    <div class="fn">
+          <div class="fnmeta"><b>Se intentó contactar</b> · 99.5% de la base — <span class="fnd">Recibieron al menos un toque del agente</span></div>
+          <div class="fnbar" style="width:99.5%;background:#4B2E83;"><span class="fnn">644</span></div>
+        </div>
+<div class="fn">
+          <div class="fnmeta"><b>Escuchó / abrió el mensaje</b> · 43.9% de la base · 44% del paso anterior — <span class="fnd">Atendió la llamada o abrió el SMS</span></div>
+          <div class="fnbar" style="width:43.9%;background:#6B4BA8;"><span class="fnn">284</span></div>
+        </div>
+<div class="fn">
+          <div class="fnmeta"><b>Contactados — respondieron</b> · 37.6% de la base · 86% del paso anterior — <span class="fnd">Contestaron o interactuaron con el agente</span></div>
+          <div class="fnbar" style="width:37.6%;background:#1B7F5A;"><span class="fnn">243</span></div>
+        </div>
+<div class="fn">
+          <div class="fnmeta"><b>Con promesa de pago</b> · 19.3% de la base · 51% del paso anterior — <span class="fnd">Se comprometieron a pagar</span></div>
+          <div class="fnbar" style="width:19.3%;background:#C9820A;"><span class="fnn">125</span></div>
+        </div>
+  </div>
+
+  <div class="card">
+    <h2>Métrica de éxito por temporalidad <small>· recaudo vs meta · 14 / 21 / 28 Días</small></h2>
+    <div class="ex">
+          <div class="exhd"><b>14 Días</b> · Logrado <b style="color:#1B7F5A;">82.2%</b> <span style="color:var(--mut);">vs meta 82%</span> · <span style="color:#1B7F5A;font-weight:800;">✓ 100% meta</span></div>
+          <div class="mtr"><div class="mtrfill" style="width:82.2%;background:#1B7F5A;"></div>
+      <div class="mtrmk" style="left:82.0%;" title="Meta 82%"></div></div>
+          <div class="exft">Recaudado $1,703,125 de $2,072,472 de cartera</div>
+        </div>
+<div class="ex">
+          <div class="exhd"><b>21 Días</b> · Logrado <b style="color:#C9820A;">51.9%</b> <span style="color:var(--mut);">vs meta 61%</span> · <span style="color:#C9820A;font-weight:700;">85% de la meta</span></div>
+          <div class="mtr"><div class="mtrfill" style="width:51.9%;background:#C9820A;"></div>
+      <div class="mtrmk" style="left:61.0%;" title="Meta 61%"></div></div>
+          <div class="exft">Recaudado $1,143,429 de $2,205,010 de cartera</div>
+        </div>
+<div class="ex">
+          <div class="exhd"><b>28 Días</b> · Logrado <b style="color:#C9820A;">28.9%</b> <span style="color:var(--mut);">vs meta 35%</span> · <span style="color:#C9820A;font-weight:700;">83% de la meta</span></div>
+          <div class="mtr"><div class="mtrfill" style="width:28.9%;background:#C9820A;"></div>
+      <div class="mtrmk" style="left:35.0%;" title="Meta 35%"></div></div>
+          <div class="exft">Recaudado $151,489 de $523,713 de cartera</div>
+        </div>
+    <div class="note">La marca vertical es la meta de cada ciclo. Éxito = % de cartera recaudada. Total semana: $2,998,043 recaudado = 62.4% de $4,801,195.</div>
+  </div>
+
+  <div class="card">
+    <h2>Toques por canal <small>· 14,416 en total</small></h2>
+    <div class="splitbar"><div style="width:82.0%;background:#4B2E83;">Voz 11,821</div><div style="width:18.0%;background:#C9820A;">SMS 2,595</div></div>
+    <div class="note">Promedio de <b>22.3 toques por cliente</b> · máximo 82 a un solo cliente.</div>
+  </div>
+
+  <div class="card">
+    <div class="pay"><div><div style="font-size:13px;opacity:.85;">Pagos recibidos (monto)</div><div style="font-size:12px;opacity:.75;margin-top:2px;">564 deudas pagadas de la semana</div></div>
+      <div style="text-align:right;"><div class="big">$2,998,043</div><div style="font-size:12px;opacity:.85;">62.4% de $4,801,195 de cartera</div></div></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>Contactabilidad por asignación</h2>
+      <div class="row"><div class="lab">14 Días — 150/385</div>
+      <div class="track"><div class="fill" style="width:39.0%;background:#1B7F5A;"></div></div>
+      <div class="val">39%</div></div>
+<div class="row"><div class="lab">21 Días — 74/200</div>
+      <div class="track"><div class="fill" style="width:37.0%;background:#1B7F5A;"></div></div>
+      <div class="val">37%</div></div>
+<div class="row"><div class="lab">28 Días — 19/62</div>
+      <div class="track"><div class="fill" style="width:30.6%;background:#1B7F5A;"></div></div>
+      <div class="val">31%</div></div>
+      <div class="note">% de clientes que respondieron sobre la base de cada ciclo.</div>
+    </div>
+    <div class="card">
+      <h2>Resultado de los contactados <small>· 243</small></h2>
+      <div class="row"><div class="lab">Promesa de pago</div>
+      <div class="track"><div class="fill" style="width:100.0%;background:#4B2E83;"></div></div>
+      <div class="val">125</div></div>
+<div class="row"><div class="lab">Contacto sin respuesta útil</div>
+      <div class="track"><div class="fill" style="width:60.8%;background:#4B2E83;"></div></div>
+      <div class="val">76</div></div>
+<div class="row"><div class="lab">Afirma haber pagado</div>
+      <div class="track"><div class="fill" style="width:9.6%;background:#4B2E83;"></div></div>
+      <div class="val">12</div></div>
+<div class="row"><div class="lab">Buzón de voz</div>
+      <div class="track"><div class="fill" style="width:8.0%;background:#4B2E83;"></div></div>
+      <div class="val">10</div></div>
+<div class="row"><div class="lab">Solicita recontacto</div>
+      <div class="track"><div class="fill" style="width:5.6%;background:#4B2E83;"></div></div>
+      <div class="val">7</div></div>
+<div class="row"><div class="lab">Dudas generales</div>
+      <div class="track"><div class="fill" style="width:4.0%;background:#4B2E83;"></div></div>
+      <div class="val">5</div></div>
+<div class="row"><div class="lab">Contactado (sin categoría)</div>
+      <div class="track"><div class="fill" style="width:1.6%;background:#4B2E83;"></div></div>
+      <div class="val">2</div></div>
+<div class="row"><div class="lab">Negativa de pago</div>
+      <div class="track"><div class="fill" style="width:1.6%;background:#4B2E83;"></div></div>
+      <div class="val">2</div></div>
+<div class="row"><div class="lab">No es el titular</div>
+      <div class="track"><div class="fill" style="width:1.6%;background:#4B2E83;"></div></div>
+      <div class="val">2</div></div>
+<div class="row"><div class="lab">Problemas de liquidez</div>
+      <div class="track"><div class="fill" style="width:0.8%;background:#4B2E83;"></div></div>
+      <div class="val">1</div></div>
+<div class="row"><div class="lab">Problema de medio de pago</div>
+      <div class="track"><div class="fill" style="width:0.8%;background:#4B2E83;"></div></div>
+      <div class="val">1</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Clasificación de todas las llamadas <small>· 11,821 llamadas de voz · según tu diccionario</small></h2>
+    <table class="dicc"><thead><tr><th style="text-align:left;color:var(--mut);font-size:11px;">Clasificación</th><th style="text-align:right;color:var(--mut);font-size:11px;"># llamadas</th><th style="text-align:right;color:var(--mut);font-size:11px;">%</th></tr></thead><tbody>
+    <tr><td class="dt">No contesta</td><td style="text-align:right;font-weight:700;">8,173</td><td style="text-align:right;color:var(--mut);">69.1%</td></tr>
+<tr><td class="dt">PP con distribuidor</td><td style="text-align:right;font-weight:700;">1,770</td><td style="text-align:right;color:var(--mut);">15.0%</td></tr>
+<tr><td class="dt">Contacto sin Promesa</td><td style="text-align:right;font-weight:700;">1,002</td><td style="text-align:right;color:var(--mut);">8.5%</td></tr>
+<tr><td class="dt">Ilocalizable</td><td style="text-align:right;font-weight:700;">634</td><td style="text-align:right;color:var(--mut);">5.4%</td></tr>
+<tr><td class="dt">Buzón</td><td style="text-align:right;font-weight:700;">183</td><td style="text-align:right;color:var(--mut);">1.5%</td></tr>
+<tr><td class="dt">Negativa de pago</td><td style="text-align:right;font-weight:700;">41</td><td style="text-align:right;color:var(--mut);">0.3%</td></tr>
+<tr><td class="dt">No lo conocen</td><td style="text-align:right;font-weight:700;">18</td><td style="text-align:right;color:var(--mut);">0.2%</td></tr>
+<tr><td class="dt">Recado con familiar</td><td style="text-align:right;font-weight:700;">0</td><td style="text-align:right;color:var(--mut);">0.0%</td></tr>
+<tr><td class="dt">Recado tercero</td><td style="text-align:right;font-weight:700;">0</td><td style="text-align:right;color:var(--mut);">0.0%</td></tr>
+<tr><td class="dt">Cuelga llamada</td><td style="text-align:right;font-weight:700;">0</td><td style="text-align:right;color:var(--mut);">0.0%</td></tr>
+<tr><td class="dt">Falleció</td><td style="text-align:right;font-weight:700;">0</td><td style="text-align:right;color:var(--mut);">0.0%</td></tr>
+    </tbody></table>
+    <div class="note">Cada llamada se clasifica por el resultado de la marcación: fallo de línea → Ilocalizable; timbró sin atender → No contesta; atendidas → tipificación de la conversación. Recado con familiar/tercero, Cuelga llamada y Falleció aún no se capturan por separado en la data del agente (por eso 0); si el sistema los marca, se reflejan aquí.</div>
+  </div>
+</div>
